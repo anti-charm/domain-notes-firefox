@@ -10,7 +10,7 @@ Persistent notes for website domains. Local storage, rich text, English/Hebrew/A
 
 ## Start here
 
-**Firefox desktop 142 or newer.** Mozilla Add-ons publication is being prepared; there is no signed public installation linked here yet.
+**Firefox desktop 142 or newer.** Version 1.0.0 has been submitted to Mozilla Add-ons and is **awaiting review**. The [Mozilla listing](https://addons.mozilla.org/en-US/firefox/addon/domain-notes/) becomes installable after approval; no signed public installation is available yet.
 
 For development, extract the clean source ZIP, open `about:debugging#/runtime/this-firefox`, choose **Load Temporary Add-on**, and select `manifest.json`. Temporary add-ons disappear at browser restart. Use the Mozilla-signed release for everyday use once published.
 

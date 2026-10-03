@@ -2,6 +2,8 @@
 
 Version 1.0.0 was checked on 2026-10-03 before publication.
 
+The reviewed runtime and source were submitted to Mozilla Add-ons on 2026-10-03. Version 1.0.0 is awaiting review. The public source is available on GitHub, and its Windows/Linux Checks workflow passed. Private vulnerability reporting, secret scanning, and push protection are enabled.
+
 - 90 automated tests passed, including concurrent saves, stale-editor conflicts, deletion/import invalidation, permission activation, domain grouping, formatting sanitization, backup validation, and message boundaries.
 - The local security audit checked 18 runtime JavaScript/HTML files with zero findings.
 - Mozilla web-ext 10.7.0 lint reported zero errors, notices, or warnings on the packaged runtime.

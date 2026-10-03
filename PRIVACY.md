@@ -14,6 +14,7 @@ Domain Notes stores the following on the user's device using Firefox `browser.st
 - per-domain layout, visibility, and writing-direction preferences;
 - global theme and accent preferences;
 - an internal random authentication token used only to secure communication between the extension's page host and isolated editor iframe.
+- local revision counters used to prevent stale editors from overwriting another edit, deletion, or import.
 
 ## Data transmitted
 
@@ -25,7 +26,7 @@ Website permissions are optional and requested only when the user enables Domain
 
 ## JSON backup
 
-Export is initiated by the user and creates a local JSON file containing notes and persistent user settings. The internal authentication token and Firefox permission grants are not exported. The backup file is plain JSON and is **not encrypted by Domain Notes**, so users should store it appropriately if their notes contain sensitive information. Import reads a file selected by the user and sanitizes its contents before storing them.
+Export is initiated by the user and creates a local JSON file containing notes and persistent user settings. The internal authentication token, revision counters, and Firefox permission grants are not exported. The backup file is plain JSON and is **not encrypted by Domain Notes**, so users should store it appropriately if their notes contain sensitive information. Import reads a file selected by the user and sanitizes its contents before storing them.
 
 ## Private browsing
 
