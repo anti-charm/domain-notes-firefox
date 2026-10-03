@@ -1,0 +1,200 @@
+{
+  "extensionName": {
+    "message": "ملاحظات النطاق"
+  },
+  "extensionDescription": {
+    "message": "ملاحظات خاصة ودائمة مرتبطة بنطاقات مواقع الويب."
+  },
+  "domainNotes": {
+    "message": "ملاحظات النطاق"
+  },
+  "openNotes": {
+    "message": "فتح ملاحظات النطاق"
+  },
+  "collapse": {
+    "message": "طي"
+  },
+  "edit": {
+    "message": "تحرير"
+  },
+  "done": {
+    "message": "تم"
+  },
+  "direction": {
+    "message": "الاتجاه"
+  },
+  "directionAuto": {
+    "message": "تلقائي"
+  },
+  "emptyNote": {
+    "message": "لا توجد ملاحظة بعد. اختر تحرير لإضافة واحدة."
+  },
+  "saving": {
+    "message": "جارٍ الحفظ…"
+  },
+  "saved": {
+    "message": "تم الحفظ"
+  },
+  "showGlobally": {
+    "message": "إظهار الملاحظات في جميع المواقع"
+  },
+  "showOnThisSite": {
+    "message": "إظهار في هذا الموقع"
+  },
+  "unsupportedPage": {
+    "message": "هذه الصفحة لا تحتوي على نطاق موقع عادي."
+  },
+  "openManager": {
+    "message": "فتح مدير الملاحظات"
+  },
+  "managerSubtitle": {
+    "message": "إدارة الملاحظات المحفوظة لنطاقات مواقع الويب."
+  },
+  "exportJson": {
+    "message": "تصدير JSON"
+  },
+  "importJson": {
+    "message": "استيراد JSON"
+  },
+  "addDomain": {
+    "message": "إضافة نطاق"
+  },
+  "searchNotes": {
+    "message": "البحث في النطاقات أو الملاحظات"
+  },
+  "noSavedNotes": {
+    "message": "لا توجد ملاحظات محفوظة."
+  },
+  "noteCount": {
+    "message": "$1 نطاقات محفوظة"
+  },
+  "delete": {
+    "message": "حذف"
+  },
+  "confirmDelete": {
+    "message": "حذف ملاحظة $1؟"
+  },
+  "invalidDomain": {
+    "message": "أدخل نطاقًا أو عنوان URL صالحًا."
+  },
+  "confirmImport": {
+    "message": "استبدال بيانات Domain Notes الحالية بهذه النسخة الاحتياطية؟"
+  },
+  "importSuccess": {
+    "message": "تم استيراد النسخة الاحتياطية."
+  },
+  "importFailed": {
+    "message": "فشل الاستيراد"
+  },
+  "siteVisibility": {
+    "message": "هذا الموقع"
+  },
+  "visibilityDefault": {
+    "message": "استخدام الإعداد العام"
+  },
+  "visibilityShow": {
+    "message": "إظهار دائمًا"
+  },
+  "visibilityHide": {
+    "message": "إخفاء دائمًا"
+  },
+  "resetLayout": {
+    "message": "إعادة ضبط الموضع والحجم"
+  },
+  "layoutReset": {
+    "message": "تمت إعادة ضبط التخطيط"
+  },
+  "theme": {
+    "message": "المظهر"
+  },
+  "themeLight": {
+    "message": "فاتح"
+  },
+  "themeDark": {
+    "message": "داكن"
+  },
+  "accent": {
+    "message": "اللون"
+  },
+  "accentViolet": {
+    "message": "بنفسجي"
+  },
+  "accentBlue": {
+    "message": "أزرق"
+  },
+  "accentTeal": {
+    "message": "فيروزي"
+  },
+  "accentGreen": {
+    "message": "أخضر"
+  },
+  "accentOrange": {
+    "message": "برتقالي"
+  },
+  "accentRose": {
+    "message": "وردي"
+  },
+  "formatting": {
+    "message": "تنسيق النص"
+  },
+  "bold": {
+    "message": "عريض"
+  },
+  "italic": {
+    "message": "مائل"
+  },
+  "underline": {
+    "message": "تحته خط"
+  },
+  "strike": {
+    "message": "يتوسطه خط"
+  },
+  "bulletList": {
+    "message": "قائمة نقطية"
+  },
+  "textColor": {
+    "message": "لون النص"
+  },
+  "clearFormatting": {
+    "message": "مسح التنسيق"
+  },
+  "fontFamily": {
+    "message": "الخط"
+  },
+  "fontSize": {
+    "message": "حجم الخط"
+  },
+  "grantWebsiteAccess": {
+    "message": "منح الوصول إلى المواقع"
+  },
+  "grantSiteAccess": {
+    "message": "منح الوصول إلى هذا الموقع"
+  },
+  "accessNotGranted": {
+    "message": "لم يتم منح الوصول إلى الموقع."
+  },
+  "globalAccessMissing": {
+    "message": "العرض العام مفعّل، لكن لم يتم منح إذن الوصول إلى المواقع في تثبيت Firefox هذا."
+  },
+  "siteAccessMissing": {
+    "message": "هذا الموقع مضبوط على العرض دائمًا، لكن لم يتم منح إذن الوصول إليه."
+  },
+  "enableOnDomain": {
+    "message": "تفعيل على $1"
+  },
+  "enableAllSites": {
+    "message": "تفعيل على جميع المواقع"
+  },
+  "accessAllSites": {
+    "message": "الوصول إلى المواقع: جميع المواقع"
+  },
+  "accessThisSite": {
+    "message": "الوصول إلى المواقع: هذا الموقع"
+  },
+  "accessOptional": {
+    "message": "الوصول إلى المواقع اختياري. يمكنك تفعيل موقع واحد أو جميع المواقع."
+  },
+  "sitePermissionOptional": {
+    "message": "فعّل هذا النطاق لإظهار زر الملاحظة."
+  }
+}

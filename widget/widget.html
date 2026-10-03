@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Domain Notes</title>
+  <link rel="stylesheet" href="widget.css">
+</head>
+<body>
+  <button id="fab" class="fab" type="button" aria-label="Open domain notes" title="Open domain notes">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h9.5L19 7v13.5H6z"/><path d="M15.5 3.5V7H19"/><path d="M9 11h7M9 14h7M9 17h5"/></svg>
+  </button>
+
+  <section id="panel" class="panel hidden" role="dialog" aria-label="Domain Notes">
+    <header id="dragHandle" class="header">
+      <strong id="domain" class="domain">—</strong>
+      <button id="collapse" class="icon-btn" type="button" aria-label="Collapse" title="Collapse">−</button>
+    </header>
+    <div class="toolbar main-toolbar">
+      <div class="toolbar-left">
+        <button id="edit" class="text-btn" type="button">Edit</button>
+        <button id="done" class="text-btn hidden" type="button">Done</button>
+      </div>
+      <label class="direction-wrap"><span>Direction</span>
+        <select id="direction"><option value="auto">Auto</option><option value="ltr">LTR</option><option value="rtl">RTL</option></select>
+      </label>
+    </div>
+    <div id="formatToolbar" class="format-toolbar hidden" aria-label="Formatting">
+      <button type="button" data-command="bold"><b>B</b></button>
+      <button type="button" data-command="italic"><i>I</i></button>
+      <button type="button" data-command="underline"><u>U</u></button>
+      <button type="button" data-command="strikeThrough"><s>S</s></button>
+      <button type="button" data-command="insertUnorderedList">•≡</button>
+      <label class="color-label"><span>A</span><input class="text-color" type="color" value="#7c3aed" aria-label="Text color"></label>
+      <select class="font-family" aria-label="Font family"><option value="">Font</option><option value="sans">Sans-serif</option><option value="serif">Serif</option><option value="monospace">Monospace</option></select>
+      <select class="font-size" aria-label="Font size"><option value="">Size</option><option>12</option><option>14</option><option>16</option><option>18</option><option>20</option><option>24</option><option>28</option><option>32</option></select>
+      <button type="button" data-command="removeFormat">Tx</button>
+    </div>
+    <main class="body">
+      <div id="display" class="note-display"></div>
+      <div id="editor" class="note-editor hidden" contenteditable="true" role="textbox" aria-multiline="true" spellcheck="true"></div>
+    </main>
+    <div id="status" class="status" aria-live="polite"></div>
+    <div class="resize-handle n" data-edge="n"></div><div class="resize-handle s" data-edge="s"></div>
+    <div class="resize-handle e" data-edge="e"></div><div class="resize-handle w" data-edge="w"></div>
+    <div class="resize-handle ne" data-edge="ne"></div><div class="resize-handle nw" data-edge="nw"></div>
+    <div class="resize-handle se" data-edge="se"></div><div class="resize-handle sw" data-edge="sw"></div>
+  </section>
+
+  <script src="../shared/browser_api.js"></script>
+  <script src="../shared/richtext.js"></script>
+  <script src="../shared/state.js"></script>
+  <script src="../shared/permissions.js"></script>
+  <script src="../shared/store.js"></script>
+  <script src="../shared/richtext_dom.js"></script>
+  <script src="widget.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "version": "1.0.0",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
+  "icons": {
+    "16": "icons/note-16.png",
+    "32": "icons/note-32.png",
+    "48": "icons/note-48.png",
+    "96": "icons/note-96.png"
+  },
+  "action": {
+    "default_title": "__MSG_extensionName__",
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/note-16.png",
+      "32": "icons/note-32.png"
+    }
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "widget/widget.html"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "domain-notes@domainnotes-addon",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'none'; img-src 'self'; media-src 'none'; frame-src 'none'; font-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none';"
+  },
+  "incognito": "not_allowed",
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "shared/browser_api.js",
+      "shared/public_suffixes.js",
+      "shared/domain.js",
+      "shared/richtext.js",
+      "shared/state.js",
+      "shared/permissions.js",
+      "shared/store.js",
+      "background/background.js"
+    ]
+  }
+}

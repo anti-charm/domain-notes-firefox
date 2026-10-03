@@ -1,0 +1,200 @@
+{
+  "extensionName": {
+    "message": "Domain Notes"
+  },
+  "extensionDescription": {
+    "message": "Persistent, private notes attached to website domains."
+  },
+  "domainNotes": {
+    "message": "Domain Notes"
+  },
+  "openNotes": {
+    "message": "Open domain notes"
+  },
+  "collapse": {
+    "message": "Collapse"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "direction": {
+    "message": "Direction"
+  },
+  "directionAuto": {
+    "message": "Auto"
+  },
+  "emptyNote": {
+    "message": "No note yet. Select Edit to add one."
+  },
+  "saving": {
+    "message": "Saving…"
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "showGlobally": {
+    "message": "Show notes globally"
+  },
+  "showOnThisSite": {
+    "message": "Show on this site"
+  },
+  "unsupportedPage": {
+    "message": "This page does not have a normal website domain."
+  },
+  "openManager": {
+    "message": "Open note manager"
+  },
+  "managerSubtitle": {
+    "message": "Manage notes saved for website domains."
+  },
+  "exportJson": {
+    "message": "Export JSON"
+  },
+  "importJson": {
+    "message": "Import JSON"
+  },
+  "addDomain": {
+    "message": "Add domain"
+  },
+  "searchNotes": {
+    "message": "Search domains or notes"
+  },
+  "noSavedNotes": {
+    "message": "No saved notes."
+  },
+  "noteCount": {
+    "message": "$1 saved domains"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "confirmDelete": {
+    "message": "Delete the note for $1?"
+  },
+  "invalidDomain": {
+    "message": "Enter a valid domain or URL."
+  },
+  "confirmImport": {
+    "message": "Replace current Domain Notes data with this backup?"
+  },
+  "importSuccess": {
+    "message": "Backup imported."
+  },
+  "importFailed": {
+    "message": "Import failed"
+  },
+  "siteVisibility": {
+    "message": "This site"
+  },
+  "visibilityDefault": {
+    "message": "Use global setting"
+  },
+  "visibilityShow": {
+    "message": "Always show"
+  },
+  "visibilityHide": {
+    "message": "Always hide"
+  },
+  "resetLayout": {
+    "message": "Reset position & size"
+  },
+  "layoutReset": {
+    "message": "Layout reset"
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "accent": {
+    "message": "Color"
+  },
+  "accentViolet": {
+    "message": "Violet"
+  },
+  "accentBlue": {
+    "message": "Blue"
+  },
+  "accentTeal": {
+    "message": "Teal"
+  },
+  "accentGreen": {
+    "message": "Green"
+  },
+  "accentOrange": {
+    "message": "Orange"
+  },
+  "accentRose": {
+    "message": "Rose"
+  },
+  "formatting": {
+    "message": "Formatting"
+  },
+  "bold": {
+    "message": "Bold"
+  },
+  "italic": {
+    "message": "Italic"
+  },
+  "underline": {
+    "message": "Underline"
+  },
+  "strike": {
+    "message": "Strikethrough"
+  },
+  "bulletList": {
+    "message": "Bullet list"
+  },
+  "textColor": {
+    "message": "Text color"
+  },
+  "clearFormatting": {
+    "message": "Clear formatting"
+  },
+  "fontFamily": {
+    "message": "Font family"
+  },
+  "fontSize": {
+    "message": "Font size"
+  },
+  "grantWebsiteAccess": {
+    "message": "Grant website access"
+  },
+  "grantSiteAccess": {
+    "message": "Grant access to this site"
+  },
+  "accessNotGranted": {
+    "message": "Website access was not granted."
+  },
+  "globalAccessMissing": {
+    "message": "Global display is enabled, but website access is not granted on this Firefox installation."
+  },
+  "siteAccessMissing": {
+    "message": "This site is set to Always show, but website access is not granted."
+  },
+  "enableOnDomain": {
+    "message": "Enable on $1"
+  },
+  "enableAllSites": {
+    "message": "Enable on all sites"
+  },
+  "accessAllSites": {
+    "message": "Website access: All sites"
+  },
+  "accessThisSite": {
+    "message": "Website access: This site"
+  },
+  "accessOptional": {
+    "message": "Website access is optional. Enable one site or all sites."
+  },
+  "sitePermissionOptional": {
+    "message": "Enable this domain to show its note button."
+  }
+}

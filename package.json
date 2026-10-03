@@ -1,0 +1,10 @@
+{
+  "name": "domain-notes-firefox",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "security:audit": "node scripts/security-audit.mjs",
+    "check": "npm test && npm run security:audit"
+  }
+}

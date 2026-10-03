@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Domain Notes</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div><h1 data-i18n="domainNotes">Domain Notes</h1><p data-i18n="managerSubtitle">Manage notes saved for website domains.</p></div>
+      <div class="backup-actions"><button id="exportBtn" data-i18n="exportJson">Export JSON</button><button id="importBtn" data-i18n="importJson">Import JSON</button><input id="importFile" type="file" accept="application/json,.json" hidden></div>
+    </header>
+
+    <section class="settings-strip">
+      <label><input id="globalVisible" type="checkbox"> <span data-i18n="showGlobally">Show notes globally</span></label>
+      <button id="grantGlobalAccess" class="hidden" type="button" data-i18n="grantWebsiteAccess">Grant website access</button>
+      <span id="globalPermissionStatus" class="status hidden"></span>
+      <label><span data-i18n="theme">Theme</span>
+        <select id="theme"><option value="light" data-i18n="themeLight">Light</option><option value="dark" data-i18n="themeDark">Dark</option></select>
+      </label>
+      <label><span data-i18n="accent">Color</span>
+        <select id="accent"><option value="violet" data-i18n="accentViolet">Violet</option><option value="blue" data-i18n="accentBlue">Blue</option><option value="teal" data-i18n="accentTeal">Teal</option><option value="green" data-i18n="accentGreen">Green</option><option value="orange" data-i18n="accentOrange">Orange</option><option value="rose" data-i18n="accentRose">Rose</option></select>
+      </label>
+    </section>
+
+    <section class="add-row">
+      <input id="newDomain" type="text" inputmode="url" placeholder="youtube.com" aria-label="Domain">
+      <button id="addBtn" data-i18n="addDomain">Add domain</button>
+      <span id="addStatus" class="status"></span>
+    </section>
+
+    <section class="search-row"><input id="search" type="search" data-i18n-placeholder="searchNotes" placeholder="Search domains or notes"></section>
+    <div id="count" class="count"></div>
+    <section id="list" class="notes-list"></section>
+    <p id="empty" class="empty hidden" data-i18n="noSavedNotes">No saved notes.</p>
+  </main>
+
+  <template id="noteCardTemplate">
+    <article class="card">
+      <div class="card-head">
+        <div class="card-domain"></div>
+        <div class="card-controls">
+          <label><span data-role="visibilityLabel">This site</span>
+            <select class="visibility"><option value="default">Use global setting</option><option value="show">Always show</option><option value="hide">Always hide</option></select>
+          </label>
+          <button type="button" class="grant-site-access hidden">Grant access</button>
+          <label><span data-role="directionLabel">Direction</span>
+            <select class="direction"><option value="auto">Auto</option><option value="ltr">LTR</option><option value="rtl">RTL</option></select>
+          </label>
+        </div>
+      </div>
+      <div class="format-toolbar" aria-label="Formatting">
+        <button type="button" data-command="bold"><b>B</b></button>
+        <button type="button" data-command="italic"><i>I</i></button>
+        <button type="button" data-command="underline"><u>U</u></button>
+        <button type="button" data-command="strikeThrough"><s>S</s></button>
+        <button type="button" data-command="insertUnorderedList">•≡</button>
+        <label class="color-label"><span>A</span><input class="text-color" type="color" value="#7c3aed"></label>
+        <select class="font-family" aria-label="Font family"><option value="">Font</option><option value="sans">Sans-serif</option><option value="serif">Serif</option><option value="monospace">Monospace</option></select>
+        <select class="font-size" aria-label="Font size"><option value="">Size</option><option>12</option><option>14</option><option>16</option><option>18</option><option>20</option><option>24</option><option>28</option><option>32</option></select>
+        <button type="button" data-command="removeFormat">Tx</button>
+      </div>
+      <div class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" spellcheck="true"></div>
+      <div class="card-footer"><span class="save-status status"></span><button class="delete" type="button">Delete</button></div>
+    </article>
+  </template>
+
+  <script src="../shared/browser_api.js"></script>
+  <script src="../shared/public_suffixes.js"></script>
+  <script src="../shared/domain.js"></script>
+  <script src="../shared/richtext.js"></script>
+  <script src="../shared/state.js"></script>
+  <script src="../shared/permissions.js"></script>
+  <script src="../shared/store.js"></script>
+  <script src="../shared/richtext_dom.js"></script>
+  <script src="../shared/backup.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

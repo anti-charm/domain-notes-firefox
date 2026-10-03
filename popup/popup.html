@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Domain Notes</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <h1 data-i18n="domainNotes">Domain Notes</h1>
+
+    <label class="row"><span data-i18n="showGlobally">Show notes globally</span><input id="globalVisible" type="checkbox"></label>
+    <p id="globalPermissionStatus" class="muted hidden"></p>
+    <button id="grantGlobalAccess" class="hidden" type="button" data-i18n="enableAllSites">Enable on all sites</button>
+
+    <section class="site-section">
+      <strong id="domain">—</strong>
+      <label class="field-row"><span data-i18n="siteVisibility">This site</span>
+        <select id="siteVisibility">
+          <option value="default" data-i18n="visibilityDefault">Use global setting</option>
+          <option value="show" data-i18n="visibilityShow">Always show</option>
+          <option value="hide" data-i18n="visibilityHide">Always hide</option>
+        </select>
+      </label>
+      <button id="grantSiteAccess" class="hidden" type="button">Enable on this site</button>
+      <p id="sitePermissionStatus" class="muted hidden"></p>
+      <button id="resetLayout" type="button" data-i18n="resetLayout">Reset position &amp; size</button>
+    </section>
+    <p id="unsupported" class="muted hidden" data-i18n="unsupportedPage">This page does not have a normal website domain.</p>
+
+    <section class="theme-section">
+      <label class="field-row"><span data-i18n="theme">Theme</span>
+        <select id="theme"><option value="light" data-i18n="themeLight">Light</option><option value="dark" data-i18n="themeDark">Dark</option></select>
+      </label>
+      <label class="field-row"><span data-i18n="accent">Color</span>
+        <select id="accent">
+          <option value="violet" data-i18n="accentViolet">Violet</option><option value="blue" data-i18n="accentBlue">Blue</option>
+          <option value="teal" data-i18n="accentTeal">Teal</option><option value="green" data-i18n="accentGreen">Green</option>
+          <option value="orange" data-i18n="accentOrange">Orange</option><option value="rose" data-i18n="accentRose">Rose</option>
+        </select>
+      </label>
+    </section>
+
+    <button id="options" class="primary" type="button" data-i18n="openManager">Open note manager</button>
+  </main>
+  <script src="../shared/browser_api.js"></script>
+  <script src="../shared/public_suffixes.js"></script>
+  <script src="../shared/domain.js"></script>
+  <script src="../shared/richtext.js"></script>
+  <script src="../shared/state.js"></script>
+  <script src="../shared/permissions.js"></script>
+  <script src="../shared/store.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

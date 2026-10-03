@@ -1,0 +1,200 @@
+{
+  "extensionName": {
+    "message": "הערות לפי דומיין"
+  },
+  "extensionDescription": {
+    "message": "הערות פרטיות וקבועות המשויכות לדומיינים של אתרים."
+  },
+  "domainNotes": {
+    "message": "הערות לפי דומיין"
+  },
+  "openNotes": {
+    "message": "פתח הערות לדומיין"
+  },
+  "collapse": {
+    "message": "כווץ"
+  },
+  "edit": {
+    "message": "עריכה"
+  },
+  "done": {
+    "message": "סיום"
+  },
+  "direction": {
+    "message": "כיוון"
+  },
+  "directionAuto": {
+    "message": "אוטומטי"
+  },
+  "emptyNote": {
+    "message": "אין עדיין הערה. בחר עריכה כדי להוסיף אחת."
+  },
+  "saving": {
+    "message": "שומר…"
+  },
+  "saved": {
+    "message": "נשמר"
+  },
+  "showGlobally": {
+    "message": "הצג הערות בכל האתרים"
+  },
+  "showOnThisSite": {
+    "message": "הצג באתר זה"
+  },
+  "unsupportedPage": {
+    "message": "לדף זה אין דומיין רגיל של אתר."
+  },
+  "openManager": {
+    "message": "פתח מנהל הערות"
+  },
+  "managerSubtitle": {
+    "message": "ניהול הערות שנשמרו עבור דומיינים של אתרים."
+  },
+  "exportJson": {
+    "message": "ייצוא JSON"
+  },
+  "importJson": {
+    "message": "ייבוא JSON"
+  },
+  "addDomain": {
+    "message": "הוסף דומיין"
+  },
+  "searchNotes": {
+    "message": "חפש בדומיינים או בהערות"
+  },
+  "noSavedNotes": {
+    "message": "אין הערות שמורות."
+  },
+  "noteCount": {
+    "message": "$1 דומיינים שמורים"
+  },
+  "delete": {
+    "message": "מחק"
+  },
+  "confirmDelete": {
+    "message": "למחוק את ההערה עבור $1?"
+  },
+  "invalidDomain": {
+    "message": "הזן דומיין או כתובת URL תקינים."
+  },
+  "confirmImport": {
+    "message": "להחליף את נתוני Domain Notes הנוכחיים בגיבוי זה?"
+  },
+  "importSuccess": {
+    "message": "הגיבוי יובא."
+  },
+  "importFailed": {
+    "message": "הייבוא נכשל"
+  },
+  "siteVisibility": {
+    "message": "אתר זה"
+  },
+  "visibilityDefault": {
+    "message": "השתמש בהגדרה הכללית"
+  },
+  "visibilityShow": {
+    "message": "הצג תמיד"
+  },
+  "visibilityHide": {
+    "message": "הסתר תמיד"
+  },
+  "resetLayout": {
+    "message": "איפוס מיקום וגודל"
+  },
+  "layoutReset": {
+    "message": "הפריסה אופסה"
+  },
+  "theme": {
+    "message": "ערכת נושא"
+  },
+  "themeLight": {
+    "message": "בהירה"
+  },
+  "themeDark": {
+    "message": "כהה"
+  },
+  "accent": {
+    "message": "צבע"
+  },
+  "accentViolet": {
+    "message": "סגול"
+  },
+  "accentBlue": {
+    "message": "כחול"
+  },
+  "accentTeal": {
+    "message": "טורקיז"
+  },
+  "accentGreen": {
+    "message": "ירוק"
+  },
+  "accentOrange": {
+    "message": "כתום"
+  },
+  "accentRose": {
+    "message": "ורוד-אדום"
+  },
+  "formatting": {
+    "message": "עיצוב טקסט"
+  },
+  "bold": {
+    "message": "מודגש"
+  },
+  "italic": {
+    "message": "נטוי"
+  },
+  "underline": {
+    "message": "קו תחתון"
+  },
+  "strike": {
+    "message": "קו חוצה"
+  },
+  "bulletList": {
+    "message": "רשימת תבליטים"
+  },
+  "textColor": {
+    "message": "צבע טקסט"
+  },
+  "clearFormatting": {
+    "message": "נקה עיצוב"
+  },
+  "fontFamily": {
+    "message": "גופן"
+  },
+  "fontSize": {
+    "message": "גודל גופן"
+  },
+  "grantWebsiteAccess": {
+    "message": "אפשר גישה לאתרים"
+  },
+  "grantSiteAccess": {
+    "message": "אפשר גישה לאתר זה"
+  },
+  "accessNotGranted": {
+    "message": "הגישה לאתר לא אושרה."
+  },
+  "globalAccessMissing": {
+    "message": "הצגה גלובלית מופעלת, אך לא ניתנה גישה לאתרים בהתקנת Firefox זו."
+  },
+  "siteAccessMissing": {
+    "message": "האתר מוגדר להצגה תמיד, אך לא ניתנה גישה לאתר."
+  },
+  "enableOnDomain": {
+    "message": "הפעלה עבור $1"
+  },
+  "enableAllSites": {
+    "message": "הפעלה בכל האתרים"
+  },
+  "accessAllSites": {
+    "message": "גישה לאתרים: כל האתרים"
+  },
+  "accessThisSite": {
+    "message": "גישה לאתרים: אתר זה"
+  },
+  "accessOptional": {
+    "message": "הגישה לאתרים היא אופציונלית. אפשר להפעיל אתר אחד או את כל האתרים."
+  },
+  "sitePermissionOptional": {
+    "message": "יש להפעיל את הדומיין הזה כדי להציג את כפתור ההערה."
+  }
+}

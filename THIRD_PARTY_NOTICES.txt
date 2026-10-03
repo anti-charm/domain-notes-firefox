@@ -1,0 +1,9 @@
+Public Suffix List data
+-----------------------
+shared/public_suffixes.js was generated from Public Suffix List data bundled with OpenJDK in the build environment.
+The Public Suffix List is maintained at https://publicsuffix.org/ and is distributed under the Mozilla Public License 2.0.
+
+The generated data in shared/public_suffixes.js remains MPL-2.0 licensed.
+A complete license copy is included in licenses/MPL-2.0.txt. Its source form is
+available in this repository; upstream source data: https://github.com/publicsuffix/list
+The add-on does not fetch updates to this data at runtime.
